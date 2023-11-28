@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;500;600;700;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Source Sans 3", sans-serif;
+}
+
+/* Header Section Css start */
+.bannar {
+  background: url(../images/photo.png) center center no-repeat;
+  background-size: cover;
+}
+
+.navbar-nav .nav-item .nav-link.active {
+  color: #008ed6 !important;
+  background: url(../images/under-menu.png) center bottom no-repeat;
+}
+.navbar-nav .nav-item .nav-link {
+  transition: all 0.5s;
+}
+.navbar-nav .nav-item .nav-link:hover {
+  color: #008ed6 !important;
+  background: url(../images/under-menu.png) center bottom no-repeat;
+  transition: all 0.5s;
+}
+/* banner section css start */
+.content-wrapper h5 {
+  color: #008ed6;
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-top: 55px;
+}
+.content-wrapper h2 {
+  color: #fff;
+  font-size: 45px;
+  line-height: 55px;
+}
+.bannar-content p {
+  color: #5d5d62;
+  font-size: 16px;
+  line-height: 24px;
+  width: 80%;
+  margin-top: 25px;
+  margin-bottom: 40px;
+}
+.tranparent-btn {
+  background-color: transparent;
+}
+.tranparent-btn:hover {
+  border-color: #008ed6 !important;
+}
+/* banner section css end */
+/* feature section css start  */
+.features {
+  padding-bottom: 50px;
+  border-bottom: 1px solid #ddd;
+}
+.feature-content .img {
+  height: 60px;
+  width: 60px;
+  line-height: 60px;
+  border-radius: 50%;
+  border: 1px solid #ddd;
+  text-align: center;
+  margin-left: 38%;
+}
+
+.feature-content img {
+  color: #008ed6;
+  position: relative;
+}
+
+.feature-content h4 {
+  color: #383838;
+  padding: 18px 0 10px 0;
+}
+.feature-content p {
+  color: #383838;
+  font-size: 16px;
+  width: 80%;
+  margin: auto;
+}
+/* feature section css end  */
+/* details section css start  */
+.details-content h5 {
+  color: #008ed6;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-top: 55px;
+}
+.details-content h2 {
+  color: #868686;
+  font-size: 36px;
+}
+.details-content p {
+  color: #b8b8b8;
+  font-size: 16px;
+  padding: 15px 0;
+  width: 78%;
+}
+.detail-items {
+  padding: 0;
+  margin: 0;
+}
+.detail-items li {
+  list-style-type: none;
+  text-align: left;
+  color: #6c5e5e;
+}
+.detail-items li img {
+  margin-right: 10px;
+  padding: 8px 8px 8px 0;
+}
+.detail-2 {
+  background-color: #f2f2f2;
+}
+/* details section css end  */
+
+/* pricing section css start */
+.pricing {
+  background: url(../images/Prostokąt\ 4.png) center center no-repeat;
+  background-size: cover;
+  padding-bottom: 50px;
+}
+.pricing-text h5 {
+  margin-top: 30px;
+}
+.carousel-item .box p {
+  font-size: 24px;
+  color: #fff;
+  width: 95%;
+}
+.author-image {
+  margin-right: 10px;
+}
+.author-info h4 {
+  font-size: 24px;
+  color: #fff;
+}
+
+.what-you-see h2 span {
+  color: #a5a4aa70;
+}
+/* pricing plan section css start */
+.plan-text h3 {
+  font-weight: 700;
+}
+.card {
+  transition: all 0.5s;
+}
+.card:hover .card-header h2 {
+  color: #008ed6;
+  transition: all 0.5s;
+}
+.card:hover .card-body {
+  background-color: #008ed6;
+  transition: all 0.5s;
+  color: #fff;
+}
+.card-body h5 {
+  color: #000;
+}
+.card:hover .card-body h5 {
+  color: #fff;
+  transition: all 0.5s;
+}
+.card:hover .cord-body h2,
+span {
+  color: #fff;
+  transition: all 0.5s;
+}
+.card:hover .card-footer button {
+  background-color: #008ed6;
+  transition: all 0.5s;
+  color: #fff;
+}
+/* footer section css start */
+.footer {
+  background-color: #ededed;
+  position: relative;
+}
+.form {
+  background-color: #000;
+  padding: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  margin: auto;
+  /* position: absolute; */
+  top: 100%;
+  left: 15%;
+}
+.form input {
+  background: transparent;
+  padding: 16px;
+  width: 300px;
+  margin-bottom: 18px;
+  text-align: left;
+  outline: none;
+  border: 1px solid #15141a;
+}
+.form input:focus {
+  background: transparent;
+}
+.form textarea {
+  background: transparent;
+  width: 300px;
+  height: 220px;
+  outline: none;
+  border: 1px solid #15141a;
+}
+
