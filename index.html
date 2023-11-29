@@ -88,7 +88,7 @@
         </div>
         <div class="row mt-5">
           <div class="col-lg-6">
-            <div class="bannar-content content-wrapper">
+            <div class="bannar-content content-wrapper" id="banner-left-text">
               <h5>introducing lucid theme</h5>
               <h2>carefully crafted and beautiful landing page</h2>
               <p>
@@ -97,7 +97,9 @@
                 nobis sunt, reiciendis nisi magnam dicta minima. Obcaecati sunt
                 ipsam quam quo?
               </p>
-              <button class="btn btn-primary btn-lg">DOWNLOAD NOW</button>
+              <button class="btn defualt-btn btn-primary btn-lg">
+                DOWNLOAD NOW
+              </button>
               <button
                 class="tranparent-btn btn btn-primary btn-lg ms-3 border border-light"
               >
@@ -246,7 +248,7 @@
       </div>
       <!-- pricing slider section start -->
       <div class="container mt-5 pt-3">
-        <div class="carousel slide" data-bs-ride="carousel" id="slides">
+        <div class="carousel slide" data-bs-ride="true" id="slides">
           <div class="carousel-indicators">
             <button
               type="button"
@@ -460,7 +462,9 @@
             >
               DOWNLOAD NOW
             </button>
-            <button class="btn btn-primary btn-lg ms-3">VIEW FEATURES</button>
+            <button class="btn btn-primary defualt-btn btn-lg ms-3">
+              VIEW FEATURES
+            </button>
           </div>
         </div>
       </div>
@@ -615,8 +619,10 @@
                 />
               </div>
               <div class="col-lg-6">
-                <textarea name="" placeholder="Message*"></textarea>
-                <button class="btn btn-primary btn-lg">Send Message</button>
+                <textarea name="" id="" cols="30" rows="10">Message*</textarea>
+                <button class="btn btn-primary defualt-btn btn-lg">
+                  Send Message
+                </button>
               </div>
             </div>
           </div>
@@ -664,10 +670,12 @@
               </ul>
               <p class="mt-2">copyright © 2023 lucid onepage theme</p>
             </div>
+            <div class="scrollTop"></div>
           </div>
         </div>
       </div>
     </section>
+
     <!-- footer section end -->
 
     <!-- font awesome kit link -->
@@ -682,5 +690,15 @@
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/js/bootstrap.bundle.min.js"></script>
+
+    <!-- gsap cdn link -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+      integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- custom javascript link -->
+    <script src="index.js"></script>
   </body>
 </html>

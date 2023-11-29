@@ -47,11 +47,24 @@ body {
   margin-top: 25px;
   margin-bottom: 40px;
 }
+.defualt-btn:hover {
+  background-color: transparent;
+  border-color: #5d5d62 !important;
+}
 .tranparent-btn {
   background-color: transparent;
+  border-color: #5d5d62 !important;
 }
 .tranparent-btn:hover {
-  border-color: #008ed6 !important;
+  border-color: #5d5d62 !important;
+  border: 1px solid #5d5d62;
+}
+#banner-left-text {
+  transform: translateX(-200px);
+  -webkit-transform: translateX(-200px);
+  -moz-transform: translateX(-200px);
+  -ms-transform: translateX(-200px);
+  -o-transform: translateX(-200px);
 }
 /* banner section css end */
 /* feature section css start  */
