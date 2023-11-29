@@ -61,10 +61,9 @@ body {
 }
 #banner-left-text {
   transform: translateX(-200px);
-  -webkit-transform: translateX(-200px);
-  -moz-transform: translateX(-200px);
-  -ms-transform: translateX(-200px);
-  -o-transform: translateX(-200px);
+}
+#banner-right-mobile {
+  transform: translateX(400px);
 }
 /* banner section css end */
 /* feature section css start  */
