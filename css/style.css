@@ -10,6 +10,9 @@ body {
 }
 
 /* Header Section Css start */
+.menu {
+  background-color: #000;
+}
 .bannar {
   background: url(../images/photo.png) center center no-repeat;
   background-size: cover;
@@ -59,14 +62,7 @@ body {
   border-color: #5d5d62 !important;
   border: 1px solid #5d5d62;
 }
-#banner-left-text {
-  transform: translateX(-200px);
-}
-#banner-right-mobile {
-  transform: translateX(400px);
-}
-/* banner section css end */
-/* feature section css start  */
+
 .features {
   padding-bottom: 50px;
   border-bottom: 1px solid #ddd;
@@ -98,6 +94,8 @@ body {
 }
 /* feature section css end  */
 /* details section css start  */
+.details {
+}
 .details-content h5 {
   color: #008ed6;
   text-transform: uppercase;
@@ -153,7 +151,8 @@ body {
   font-size: 24px;
   color: #fff;
 }
-
+.what-you-see {
+}
 .what-you-see h2 span {
   color: #a5a4aa70;
 }
@@ -168,6 +167,8 @@ body {
 
 /* pricing slider section css end */
 /* pricing plan section css start */
+.pricing-plan {
+}
 .plan-text h3 {
   font-weight: 700;
 }
@@ -200,6 +201,7 @@ span {
   transition: all 0.5s;
   color: #fff;
 }
+
 /* footer section css start */
 .footer {
   background-color: #ededed;
@@ -208,19 +210,16 @@ span {
 .form {
   background-color: #000;
   padding: 35px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 70%;
+  position: relative;
+  z-index: 99;
+  bottom: -30px;
+  width: 80%;
   margin: auto;
-  /* position: absolute; */
-  top: 100%;
-  left: 15%;
 }
 .form input {
   background: transparent;
   padding: 16px;
-  width: 300px;
+
   margin-bottom: 18px;
   text-align: left;
   outline: none;
@@ -235,6 +234,12 @@ span {
   height: 220px;
   outline: none;
   border: 1px solid #15141a;
+}
+.form textarea:focus {
+  background-color: transparent;
+}
+/* footer map */
+.footer-map {
 }
 /* footer bottom section css start */
 .footer-bottom {
